@@ -1,6 +1,6 @@
 {
   "name": "linkify-it",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Links recognition library with FULL unicode support",
   "keywords": [
     "linkify",
@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "ansi": "^0.3.0",
-    "autoprefixer-stylus": "^0.14.0",
+    "autoprefixer-stylus": "^1.0.0",
     "benchmark": "^2.1.0",
     "browserify": "^16.2.3",
     "chai": "^4.2.0",
