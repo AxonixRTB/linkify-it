@@ -1,6 +1,6 @@
 {
   "name": "@axonix/linkify-it",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Links recognition library with FULL unicode support",
   "keywords": [
     "linkify",
@@ -10,13 +10,14 @@
   ],
   "repository": "markdown-it/linkify-it",
   "files": [
-    "index.js",
+    "index.*",
     "lib/"
   ],
   "license": "MIT",
   "scripts": {
     "test": "make test"
   },
+  "types": "./index.d.ts",
   "dependencies": {
     "uc.micro": "^1.0.1"
   },
