@@ -1,6 +1,6 @@
 {
-  "name": "@axonix/linkify-it",
-  "version": "2.2.2",
+  "name": "@axonixrtb/linkify-it",
+  "version": "2.2.3",
   "description": "Links recognition library with FULL unicode support",
   "keywords": [
     "linkify",
@@ -8,7 +8,13 @@
     "autolink",
     "autolinker"
   ],
-  "repository": "markdown-it/linkify-it",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axonixrtb/linkify-it.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/axonixrtb/"
+  },
   "files": [
     "index.*",
     "lib/"
