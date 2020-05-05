@@ -1,0 +1,16 @@
+version: 0.2
+
+env:
+  parameter-store:
+    NPM_TOKEN: /CodeBuild/npm_token
+    NODE_VERSION: /CodeBuild/node_version
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: $NODE_VERSION
+    commands:
+      - echo "//npm.pkg.github.com/:_authToken=${NPM_TOKEN}" >> /root/.npmrc
+  build:
+    commands:
+      - npm publish
