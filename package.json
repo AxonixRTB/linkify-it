@@ -1,6 +1,6 @@
 {
   "name": "@axonixrtb/linkify-it",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "description": "Links recognition library with FULL unicode support",
   "keywords": [
     "linkify",
