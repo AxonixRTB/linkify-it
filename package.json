@@ -8,15 +8,12 @@
     "autolink",
     "autolinker"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/axonixrtb/linkify-it.git"
-  },
+  "repository": "markdown-it/linkify-it",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/axonixrtb/"
   },
   "files": [
-    "index.*",
+    "index.js",
     "lib/"
   ],
   "license": "MIT",
@@ -30,13 +27,12 @@
     "gh-pages": "npm run demo && npm run doc && shx cp -R doc/ demo/ && gh-pages -d demo -f",
     "prepublishOnly": "npm run gh-pages"
   },
-  "types": "./index.d.ts",
   "dependencies": {
     "uc.micro": "^1.0.1"
   },
   "devDependencies": {
     "ansi": "^0.3.0",
-    "autoprefixer-stylus": "^1.0.0",
+    "autoprefixer-stylus": "^0.14.0",
     "benchmark": "^2.1.0",
     "browserify": "^16.2.3",
     "coveralls": "^3.0.2",
