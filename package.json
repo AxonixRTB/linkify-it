@@ -9,9 +9,6 @@
     "autolinker"
   ],
   "repository": "markdown-it/linkify-it",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/axonixrtb/"
-  },
   "files": [
     "index.js",
     "lib/"
